@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+.venv/
+venv/
+env/
+# Windows specific
+venv.bak/
+env.bak/
+
+# Environment variables
+.env
+.flaskenv
+
+# Editors
+# VS Code
+.vscode/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# PyCharm
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# Documentation
+docs/_build/
+
+# Miscellaneous
+*.log
+*.sqlite3
+*.db
+*.zip
