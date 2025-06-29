@@ -1,3 +1,21 @@
+def turn_left():
+    print('turn_left')
+
+def move():
+    print('move')
+
+def at_goal():
+    return True
+
+def front_is_clear():
+    return True
+
+def right_is_clear():
+    return True
+
+def wall_in_front():
+    return True
+
 
 def turn_right():
     turn_left()
@@ -26,6 +44,8 @@ while not at_goal():
     if wall_in_front():
         turn_left()
         turn_left_count = turn_left_count + 1
+
+
         
 
         
