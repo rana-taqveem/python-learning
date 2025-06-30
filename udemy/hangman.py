@@ -94,7 +94,11 @@ print(stages[0])
 while True:
     
     print(f'\nWord to guess: {guessed_word}')
-    guessed_letter = input('Guess a letter: ')
+    guessed_letter = input('Guess a letter: ').lower()
+
+    
+    if not guessed_letter.isalpha() or len(guessed_letter) != 1:
+        print("Please enter a single valid letter.")
 
     found = False
     for i, char in enumerate(word):
